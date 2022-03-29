@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css"/>
+    
+    <title>Document</title>
+</head>
+<body>
+    <section id="wrapper"> 
+    <div id="store">
+        <h1> Our <strong> Store </strong> </h1>
+        <div id="filter-btn">
+            <a href="#" class="button" data-filter="all"> all </a>
+            <a href="#" class="button" data-filter="cake"> cakes </a>
+            <a href="#" class="button" data-filter="cupcake"> cupcakes </a>
+            <a href="#" class="button" data-filter="sweet"> sweets </a>
+            <a href="#" class="button" data-filter="doughnut"> doughnuts </a>
+        </div>
+        <div class="search-bar">
+            <form>
+                <i class="fa fa-search fa-lg"> </i>
+                <input type="text" id="search"  placeholder="search item..." onkeyup="searchProduct()" />
+            </form>
+        </div>
+
+        <div class="container" id="product-list">
+            <div class="item sweet"> 
+                <img src="images/sweet.jpg"/>
+                <div class="title"> 
+                    <h4> sweet item</h4> 
+                    <p> $5 </p>
+                </div>   
+            </div>
+            <div class="item cupcake"> 
+                <img src="images/cupcake1.jpg"/>
+                <div class="title"> 
+                    <h4> Cupcake item</h4> 
+                    <p> $5 </p>
+                </div>    
+            </div>
+            <div class="item cake"> 
+                <img src="images/cake.jpg"/>
+                <div class="title"> 
+                    <h4> cakes item</h4> 
+                    <p> $5 </p>
+                </div>    
+            </div>
+            <div class="item doughnut"> 
+                <img src="images/doughnut1.jpeg"/>
+                <div class="title"> 
+                    <h4>doughnut </h4> 
+                    <p> $5 </p>
+                </div>   
+            </div>
+            <div class="item sweet"> 
+                <img src="images/sweet2.jpg"/>
+                <div class="title"> 
+                    <h4> sweet item</h4> 
+                    <p> $10 </p>
+                </div>    
+            </div>
+            <div class="item cupcake"> 
+                <img src="images/cupcake3.jpg"/>
+                <div class="title"> 
+                    <h4> Cupcake item</h4> 
+                    <p> $10 </p>
+                </div>    
+            </div>
+            <div class="item cake"> 
+                <img src="images/cake2.jpeg"/>
+                <div class="title"> 
+                    <h4> cakes item</h4> 
+                    <p> $10 </p>
+                </div>   
+            </div>
+            <div class="item doughnut"> 
+                <img src="images/doughnut3.jpeg"/>
+                <div class="title"> 
+                    <h4> doughnut</h4> 
+                    <p> $10 </p>
+                </div>    
+            </div>
+            <div class="item cupcake"> 
+                <img src="images/cupcake4.jpg"/>
+                <div class="title"> 
+                    <h4>cupcake item</h4> 
+                    <p> $15 </p>
+                </div>    
+            </div>
+         </div>
+</section>
+    <script src="index.js"></script>
+</body>
+</html>
